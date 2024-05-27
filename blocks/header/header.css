@@ -18,10 +18,12 @@ header nav {
   padding: 0 16px;
   top: 25px;
 
+  /* RUG */
   background-color: #0b302a;
   border-top-color: #28e070;
-  border-top-style: .075rem solid;
-  
+  border-top-style: solid;
+  border-width: 0.75px;
+    /* RUG */
 }
 
 header nav a:any-link {
