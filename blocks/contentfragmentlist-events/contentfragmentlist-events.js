@@ -80,10 +80,10 @@ async function getCategories(persistedQuery, isUE) {
                 /*width: item.featuredImage["width"],*/
                 /*height: item.featuredImage["height"],*/
                 /*mimeType: item.featuredImage["mimeType"],*/
-                deliveryUrl: getImageUrl(item.image, false),
-                width: item.image["width"],
-                height: item.image["height"],
-                mimeType: item.image["mimeType"],
+                deliveryUrl: getImageUrl(item.primaryImage, false),
+                width: item.primaryImage["width"],
+                height: item.primaryImage["height"],
+                mimeType: item.primaryImage["mimeType"],
             }
         };
     });
