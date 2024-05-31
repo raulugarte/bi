@@ -124,7 +124,10 @@ body.article h2::after {
   width: 84px;
   padding-top: 8px;
   content: "";
-  border-bottom: 2px solid var(--heading-highlight-color);
+  /* RUG
+   border-bottom: 2px solid var(--heading-highlight-color); */
+ border-bottom: 2px solid var(#00e47c);
+ 
 }
 
 h2 { font-size: var(--heading-font-size-xl) }
